@@ -10,13 +10,13 @@ def from_dob_to_age(born):
 
 def write_csv():
     new_headers = list(new_column_data_dict["1"].keys())
-    print(new_headers)
+    # print(new_headers)
         
     with open('student.csv',"w+", newline='') as write_obj:
         writer = DictWriter(write_obj, fieldnames=new_headers)
         writer.writeheader()
         for k in new_column_data_dict:
-            print(new_column_data_dict[k])
+            # print(new_column_data_dict[k])
             writer.writerow(new_column_data_dict[k])
 
 def read_and_manipulate():
