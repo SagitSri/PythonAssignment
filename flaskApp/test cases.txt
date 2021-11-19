@@ -1,0 +1,9 @@
+Verify if a user will be able to login with a valid username and valid password. - positive
+Verify if a user cannot login with a valid username and an invalid password. - positive
+
+
+Verify the register page, when the field is blank and Submit button is clicked.	- negative
+Verify fields in register page are thrown required message - positive
+Verify if the user exist - positive
+Verify if the user is new then added to db - positive
+Verify test cases for password - positive
